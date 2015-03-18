@@ -5,7 +5,7 @@
 ##DESCRIPTION : Script checks if container name is appropriately named by parameter -n and type of output determined by
 ##		parameter -r (Analyte/ResultFile) 
 ##D_VERSION    :  1.0.0
-##P_VERSION    : 1.0.0
+##P_VERSION    :  1.0.0
 ##############################################
 
 import socket

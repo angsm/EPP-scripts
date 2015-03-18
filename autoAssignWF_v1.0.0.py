@@ -37,10 +37,6 @@ def getWorkflow( processID ):
 
 	## get selected workflow UDF
 	selectedWF = api.getUDF( pDOM, "Next Workflow")
-	
-	## check if UDF is None
-	if selectedWF.find( "None" ) > -1:
-		raise Exception( "Workflow was not selected, please select a workflow on the record details screen" )
 
 	## get workflow URI
 	wURI = BASE_URI + "configuration/workflows"
